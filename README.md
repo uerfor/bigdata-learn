@@ -4,6 +4,7 @@
 ### HDFS
     1 zuchneg
     2 test
+    3 mode
 ### MapReduce
 ### Yarn
 
