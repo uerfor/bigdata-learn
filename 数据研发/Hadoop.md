@@ -2,7 +2,7 @@
 + **Hadoop是什么?**
   - 狭义：指Hadoop框架, 大数据必备框架, Apache下开源的分布式系统基础框架, 主要解决海量数据的存储和分析计算问题。
   - 广义：指Hadoop生态圈, 包含大量用于大数据储存, 管理, 传输, 分析计算的框架。
-  ![shengtai](/数据研发/pic/shengtai.jpg)
+  ![shengtai](./pic/生态.png)
 
 
 
@@ -10,7 +10,7 @@
 + **Hadoop组成？**
   - Hadoop1.x MapReduce同时处理业务逻辑运算和资源调度, 耦合性高
   -  Hadoop2.x 进行改进, 增加Yarn, Yarn负责任务调度，MapReduce负责运算
-  ![zucheng](/数据研发/pic/zucheng.jpg)
+  ![zucheng](./pic/zucheng.png)
 
 + **Hadoop生态圈组件**
   -  Zookeeper：是一个开源的分布式应用程序协调服务,基于zookeeper可以实现同步服务，配置维护，命名服务。
@@ -24,9 +24,9 @@
   -  单机版、伪分布式模式、完全分布式模式
 
 ### **HDFS**
-+ HDFS组成架构
-![zu](/数据研发/pic/HDFS组成架构.png)
-  - 架构主要由四个部分组成，分别为HDFS Client、NameNode、DataNode和Secondary NameNode。下面我们分别介绍这四个组成部分。
++ **HDFS组成架构**
+![zu](./pic/HDFS组成架构.png)
+  - 架构主要由四个部分组成，分别为**HDFS Client、NameNode、DataNode和Secondary NameNode**。下面我们分别介绍这四个组成部分。
   - Client：就是客户端。
     -  （1）文件切分。文件上传HDFS的时候，Client将文件切分成一个一个的Block，然后进行存储；
     - （2）与NameNode交互，获取文件的位置信息；
@@ -48,4 +48,4 @@
 
 ### MapReduce
 
-### Yarn
+### Yarn[]()
